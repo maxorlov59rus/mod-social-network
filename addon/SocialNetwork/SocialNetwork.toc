@@ -1,0 +1,9 @@
+## Interface: 30300
+## Title: Social Network
+## Title-ruRU: Социальная Сеть
+## Notes: In-game Social Network UI for the mod-social-network server module.
+## Notes-ruRU: Внутреигровой интерфейс Социальной Сети (модуль mod-social-network).
+## Author: crazy-voin
+## Version: 1.0.0
+
+SocialNetwork.lua

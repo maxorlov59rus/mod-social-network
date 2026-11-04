@@ -1,0 +1,74 @@
+[worldserver]
+###################################################################################################
+#    SOCIAL NETWORK (FUN MODULE)
+#
+#    Settings for the Social Network fun module.
+#    To enable it, build with the module enabled: -DMODULES="mod-social-network" or leave default.
+#
+#    SocialNetwork.MaxPosts
+#        Description: Maximum number of posts per player on his wall.
+#        Default:     10
+
+SocialNetwork.MaxPosts = 10
+
+#    SocialNetwork.MaxStatusLength
+#        Description: Maximum profile status length in characters (UTF-8 aware).
+#        Default:     60
+
+SocialNetwork.MaxStatusLength = 60
+
+#    SocialNetwork.MaxPostLength
+#        Description: Maximum post length in characters (UTF-8 aware).
+#        Default:     255
+
+SocialNetwork.MaxPostLength = 255
+
+#    SocialNetwork.WallPageSize
+#        Description: How many recent posts are shown by the .social wall command.
+#        Default:     5
+
+SocialNetwork.WallPageSize = 5
+
+#    SocialNetwork.TopSize
+#        Description: Number of players shown by the .social top command.
+#        Default:     10
+
+SocialNetwork.TopSize = 10
+
+#    SocialNetwork.InboxPageSize
+#        Description: How many messages are shown by the .social inbox command.
+#        Default:     10
+
+SocialNetwork.InboxPageSize = 10
+
+#    SocialNetwork.MaxMessageLength
+#        Description: Maximum private message / comment length in characters (UTF-8 aware).
+#        Default:     255
+
+SocialNetwork.MaxMessageLength = 255
+
+#    SocialNetwork.MaxComments
+#        Description: Maximum comments per post.
+#        Default:     20
+
+SocialNetwork.MaxComments = 20
+
+#    SocialNetwork.MaxFriends
+#        Description: Maximum friends per player.
+#        Default:     50
+
+SocialNetwork.MaxFriends = 50
+
+#    SocialNetwork.MaxEnemies
+#        Description: Maximum enemies per player.
+#        Default:     10
+
+SocialNetwork.MaxEnemies = 10
+
+#    SocialNetwork.GuildListSize
+#        Description: How many guild members are listed by .social guild.
+#        Default:     10
+
+SocialNetwork.GuildListSize = 10
+
+###################################################################################################
